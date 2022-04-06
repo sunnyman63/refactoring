@@ -6,12 +6,12 @@ import java.util.regex.Pattern;
 
 public class DNI {
 
-    public TIPODNI enumTipo;    // tipo de documento
+    public TIPODOC enumTipo;    // tipo de documento
     public String numDNI;       // identificador del documento
     public Date fchValidez;     // fecha de validez del documento
 
     // construye un DNI
-    public DNI(TIPODNI tipo, String numDNI, Date fchValidez) {
+    public DNI(TIPODOC tipo, String numDNI, Date fchValidez) {
         this.enumTipo = tipo;           // tipo de documento
         this.numDNI = numDNI;           // asignamos el DNI
         this.fchValidez = fchValidez;   // asignamos la fecha de validez
